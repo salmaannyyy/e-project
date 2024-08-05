@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #FF3CAC;
+background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+
+
+   .btn1{
+      padding: 14px 26px;
+      background: #fff;
+      border-radius: 50px;
+      border: none;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    
+      
+  }
+  /* navbar-ends  */
+
+
+  
+/* Maps & Feedback */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  } 
+  
+  :root{
+  backdrop-filter: blur(10px);
+
+    --primary: #444;
+    --light: #fff;
+  }
+  
+  /* body{
+    font-family: 'oswald', sans-serif;
+  } */
+  
+  a {
+    text-decoration: none;
+   color: white
+  }
+  
+  a:hover, a:active, a:focus{
+    text-decoration: underline;
+
+    color: unset;
+  }
+  
+  h6{
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  section{
+    display: flex;
+    align-items: center;
+    padding: 8em 0;
+  }
+  
+  .map-wrapper{
+    position: absolute;
+    top: 14%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .map-wrapper iframe{
+    width: 100%;
+    height: 100%;
+    
+    filter: invert(1) grayscale(100%);
+  }
+ 
+  .main-content{
+    
+    background-color: rgba(0, 0, 0, 0.007);
+
+    font-family: sans-serif;
+  backdrop-filter: blur(10px);
+
+    position: relative;
+    z-index: 22;
+    width: fit-content;
+    color: white;
+    cursor: none;
+  }
+  
+  .main-content .link{
+    -webkit-text-stroke: 1px var(--dark);
+    color: white;
+    font-size: 3em;
+    font-weight: bolder;
+  }
+  
+  .main-content .link:hover{
+    text-decoration: underline;
+  }
+
+ 
+  .form-control{
+    background-color: rgba(0, 0, 0, 0.007);
+
+    color: white;
+    
+    outline: none;
+    border: none;
+    border-bottom: 1px solid var(--dark);
+    border-radius: 0px;
+    margin-top: 1.3em;
+  }
+  
+  .form-control:focus, .form-control:hover{
+    background-color: rgba(0, 0, 0, 0.007);
+    color: white;
+
+    box-shadow: none;
+    border-bottom-color: var(--dark);
+  }
+  
+  .form-control::placeholder{
+    background-color: rgba(0, 0, 0, 0.007);
+    color: white;
+    
+    padding-left: 0px!important;
+    color: var(--dark);
+  }
+  
+  @media(max-width:600px){
+    
+    .map-wrapper iframe {
+        
+        min-height: 140vh;
+    }
+  }
+  .card {
+    background-color: rgba(0, 0, 0, 0.007);
+
+    
+
+    backdrop-filter: blur(10px);
+
+  }
+  /* Map & Feeback End */
+
+
+  
